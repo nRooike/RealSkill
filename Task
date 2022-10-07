@@ -1,0 +1,14 @@
+  public int Add(params int[] nums)
+    {https://github.com/nRooike/RealSkill
+        if (nums?.Length < 1)
+            return 0;
+        var result = 0;
+        foreach (var n in nums)
+        {
+            // ...（其它代码）
+            result += n;
+        }
+        return result;
+    }
+    
+ 跟可变参数相关的c#内容
